@@ -20,12 +20,12 @@ export class QuoteComponent implements OnInit {
   }
   constructor(){
     this.quote=[
-      new Quote (1,'Walter Hagen' ,'You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way.',new Date()),
-      new Quote (2,'Charles Darwin','A man who dares to waste one hour of time has not discovered the value of life.',new Date()),
-      new Quote (3,'Eleanor Roosevelt','If life were predictable it would cease to be life, and be without flavor.',new Date()),
-      new Quote (4,'Ralph Waldo Emerson','All life is an experiment. The more experiments you make the better',new Date()),
-      new Quote (5,'Ralph Waldo Emerson','All of life is peaks and valleys. Don’t let the peaks get too high and the valleys too low.',new Date()),
-      new Quote (6,'Emily Dickinson','Find ecstasy in life; the mere sense of living is joy enough.',new Date()),
+      new Quote (1,'"Walter Hagen' ,'You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way."',new Date(2003,4)),
+      new Quote (2,'"Charles Darwin','A man who dares to waste one hour of time has not discovered the value of life."',new Date(2016,6)),
+      new Quote (3,'"Eleanor Roosevelt','If life were predictable it would cease to be life, and be without flavor."',new Date(2018,11)),
+      
+      new Quote (4,'"Ralph Waldo Emerson','All of life is peaks and valleys. Don’t let the peaks get too high and the valleys too low."',new Date(2015,7)),
+      new Quote (5,'"Emily Dickinson','Find ecstasy in life; the mere sense of living is joy enough."',new Date(2016,8)),
       ];
   }
   addNewQuote(quote){

@@ -1,12 +1,15 @@
 
 <div class="container">
+  <div id="head">
+    <div class="jumbotron text-center">
   <h1>QUOTES</h1>
   <hr>
+  </div>
   <div class="row">
     <div class="col-md-6">
       <div class="card-cd" *ngFor='let quote of quote;let i = index'>
         <div>
-          <h4 id={{i}} appStrikethrough>{{quote.name}} <p class="post">posted {{quote.completeDate|date|uppercase}}</p>
+          <h4 class="card-bd" id={{i}} appStrikethrough>{{quote.name}} <p class="post">posted {{quote.completeDate|date|uppercase}}</p>
           </h4>
           <div id="bt">
           <button (click)='toggleDetail(i)'>Quote</button>
