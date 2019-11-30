@@ -9,13 +9,13 @@
     <div class="col-md-6">
       <div class="card-cd" *ngFor='let quote of quote;let i = index'>
         <div>
-          <h4 class="card-bd" id={{i}} appStrikethrough>{{quote.name}} <p class="post">posted {{quote.completeDate|date|uppercase}}</p>
+          <h4 class="card bd" id={{i}} appStrikethrough>{{quote.name}} <p class="post">posted {{quote.completeDate|date|uppercase}}</p>
           </h4>
           <div id="bt">
           <button (click)='toggleDetail(i)'>Quote</button>
         </div>
         </div>
-        <div *ngIf='quote.showDescription'>
+        <div class="card de" *ngIf='quote.showDescription'>
           <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
         </div>
       </div>
