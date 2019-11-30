@@ -13,6 +13,7 @@
 #bt{
     border: 1px;
     color: white;
+    padding: 30px;
 }
 #head h1{
  font-size: 30px;
@@ -31,10 +32,11 @@
     box-shadow: 2px 4px;
     font-size: 25px;
     font-family: pacifico,cursive;
-    padding:20px;
+    padding:40px;
 }
 .de{
     font-size: 20px;
     color: black;
+
 
 }
