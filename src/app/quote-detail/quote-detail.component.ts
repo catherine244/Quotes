@@ -8,13 +8,12 @@ import {Quote} from '../quote'
 export class QuoteDetailComponent implements OnInit {
   numberoflikes : number=0
   numberofdislikes : number=0
-
-likebuttonclick(){
-  this.numberoflikes++;
-}
-dislikebuttonclick(){
-  this.numberofdislikes++;
-}
+  likebuttonclick(){
+    this.numberoflikes++;
+  }
+  dislikebuttonclick(){
+    this.numberofdislikes++;
+  }
 @Input() quote: Quote;
 @Output() isComplete = new EventEmitter<boolean>();
 
