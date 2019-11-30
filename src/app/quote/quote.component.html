@@ -2,16 +2,16 @@
 <div class="container">
   <h1>QUOTES</h1>
   <hr>
-
   <div class="row">
     <div class="col-md-6">
-      <div *ngFor='let quote of quote;let i = index'>
+      <div class="card-cd" *ngFor='let quote of quote;let i = index'>
         <div>
           <h4 id={{i}} appStrikethrough>{{quote.name}} <p class="post">posted {{quote.completeDate|date|uppercase}}</p>
           </h4>
+          <div id="bt">
           <button (click)='toggleDetail(i)'>Quote</button>
         </div>
-
+        </div>
         <div *ngIf='quote.showDescription'>
           <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
         </div>
