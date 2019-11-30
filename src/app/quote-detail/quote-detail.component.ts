@@ -6,6 +6,15 @@ import {Quote} from '../quote'
   styleUrls: ['./quote-detail.component.css']
 })
 export class QuoteDetailComponent implements OnInit {
+  numberoflikes : number=0
+  numberofdislikes : number=0
+
+likebuttonclick(){
+  this.numberoflikes++;
+}
+dislikebuttonclick(){
+  this.numberofdislikes++;
+}
 @Input() quote: Quote;
 @Output() isComplete = new EventEmitter<boolean>();
 
