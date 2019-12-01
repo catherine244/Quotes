@@ -2,6 +2,17 @@
 - Quotes
 ## Author
 - Catherine Nduku
+## Description
+The website is basically a website that one can upload quotes and he or she can like and dislike the qoute.
+## Technologies Used
+- This project was generated with Angular CLI version 7.1.4.
+- HTML & CSS (Bootstrap)
+## Setup Instructions and Installation
+- Clone this repository to a location in your file system.
+- Open terminal command line then navigate to the root folder of the application.
+- Run ng serve command.
+- Navigate to http://localhost:4200/ in your browser.
+## BDD
 
 
 # Quotes
