@@ -11,7 +11,7 @@
           <h4 class="card bd" id={{i}} appStrikethrough>{{quote.name}} <p class="post">posted {{quote.completeDate|date|uppercase}}</p>
           </h4>
           <div id="bt">
-          <button (click)='toggleDetail(i)'>Quote</button>
+          <button (click)='toggleDetail(i)'> View Quote</button>
         </div>
         </div>
         <div class="card de" *ngIf='quote.showDescription'>
