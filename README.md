@@ -13,6 +13,7 @@ The website is basically a website that one can upload quotes and he or she can 
 - Run ng serve command.
 - Navigate to http://localhost:4200/ in your browser.
 ## BDD
+<img src="src/assets/bdd.png">
 
 
 ## Development
