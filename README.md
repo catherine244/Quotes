@@ -15,6 +15,7 @@ The website is basically a website that one can upload quotes and he or she can 
 ## BDD
 <img src="src/assets/bdd.png">
 
+- This Application is designed for inspiration Quotes.Where one is able to add quote and also to dislike or like the Quote.The user has also the ability to delete and and add a Quote.
 
 ## Development
 
@@ -54,6 +55,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## live link 
+https://catherine244.github.io/Quotes/
 
 ## Contacts
 ccayreen24@gmail.com
